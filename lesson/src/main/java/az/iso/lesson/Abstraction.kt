@@ -125,4 +125,6 @@ fun main() {
             println("calling...")
         }
     }
+
+    printHello()
 }
