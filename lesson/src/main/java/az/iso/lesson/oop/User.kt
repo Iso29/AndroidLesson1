@@ -1,14 +1,14 @@
-package az.iso.lesson
+package az.iso.lesson.oop
 
 import java.security.MessageDigest
 
-class User(
+class UserDTOUser(
     private var userName : String,
     private var password : String
 ){
 
     companion object{
-        val users = arrayListOf<User>()
+//        val users = arrayListOf<User>()
     }
 
     fun setUserName(userName : String){

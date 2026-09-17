@@ -1,4 +1,4 @@
-package az.iso.lesson
+package az.iso.lesson.oop
 
 fun main() {
     //public , protected , internal, private

@@ -1,4 +1,4 @@
-package az.iso.lesson
+package az.iso.lesson.oop
 
 abstract class Animal(
     val type : String

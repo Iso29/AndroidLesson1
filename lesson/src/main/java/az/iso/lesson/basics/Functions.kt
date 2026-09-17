@@ -1,6 +1,4 @@
-package az.iso.lesson
-
-import kotlin.random.Random
+package az.iso.lesson.basics
 
 fun main() {
 //    printHello()

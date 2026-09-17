@@ -1,4 +1,4 @@
-package az.iso.lesson
+package az.iso.lesson.basics
 
 fun main() {
     //Ilk ders ucun numuneler

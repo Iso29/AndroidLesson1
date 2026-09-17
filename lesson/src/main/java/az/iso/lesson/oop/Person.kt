@@ -1,4 +1,4 @@
-package az.iso.lesson
+package az.iso.lesson.oop
 
 class Person {
     private var name: String = ""

@@ -1,13 +1,13 @@
-package az.iso.lesson
+package az.iso.lesson.oop
 
 import kotlin.random.Random
 
 class Student(
-    id: Long,
-    name: String,
-    surname: String,
-    var average: Float,
-    var speciality: String
+    id: Long = 0,
+    name: String = "",
+    surname: String ="",
+    var average: Float = 0.0f,
+    var speciality: String = ""
 ) : SchoolIndividual(
     id = id,
     name = name,
@@ -20,10 +20,10 @@ class Student(
 }
 
 class Teacher(
-    id: Long,
-    name: String,
-    surname: String,
-    var salary: Double
+    id: Long = 0,
+    name: String = "",
+    surname: String ="",
+    var salary: Double = 0.0
 ) : SchoolIndividual(
     id = id,
     name = name,
@@ -36,9 +36,9 @@ class Teacher(
 }
 
 open class SchoolIndividual(
-    var id: Long,
-    var name: String,
-    var surname: String
+    var id: Long = 0,
+    var name: String = "",
+    var surname: String = ""
 ) {
     open fun printFullName() {
         println(this.name + " " + this.surname)

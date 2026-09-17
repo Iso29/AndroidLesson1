@@ -1,4 +1,4 @@
-package az.iso.lesson
+package az.iso.lesson.oop
 
 interface Alive{
     fun eat()

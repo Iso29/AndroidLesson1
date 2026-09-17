@@ -1,4 +1,6 @@
-package az.iso.lesson
+package az.iso.lesson.oop
+
+import java.util.Date
 
 interface TestClass{
     fun testIt()
@@ -35,7 +37,7 @@ class EnumSim private constructor(val color : String){
 }
 
 enum class PaymentWay{
-    CASH,CARD,APPLE_PAY,GOOGLE_PAY,FACE
+    CASH,CARD,APPLE_PAY,GOOGLE_PAY
 }
 
 class Receipt(
@@ -58,7 +60,7 @@ fun main() {
 
     val recp = Receipt(
         amount = 20.0,
-        date = java.util.Date().toString(),
+        date = Date().toString(),
         paymentMethod = PaymentWay.CARD
     )
 }

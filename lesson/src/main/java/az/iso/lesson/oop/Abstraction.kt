@@ -1,4 +1,6 @@
-package az.iso.lesson
+package az.iso.lesson.oop
+
+import az.iso.lesson.basics.printHello
 
 class Customer(
     name: String,

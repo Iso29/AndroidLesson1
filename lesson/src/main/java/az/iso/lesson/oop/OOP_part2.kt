@@ -1,4 +1,4 @@
-package az.iso.lesson
+package az.iso.lesson.oop
 
 class Car(
     val mark: String,
